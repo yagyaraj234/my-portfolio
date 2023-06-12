@@ -2,11 +2,11 @@ import React from "react";
 import LeftBar from "./LeftBar";
 const Layout = () => {
   return (
-    <div className="bg-smoky-black flex flex-cols gap-8 px-[30px] py-[60px] ">
-      <div className="w-[350px] bg-eerie-black-2 rounded-[30px] border-white border py-10 px-[10px] ">
+    <div className="bg-smoky-black flex md:flex-row flex-col  md:gap-8 gap-5 md:px-[30px] md:py-[60px] px-2 py-4 ">
+      <div className="md:w-[350px] bg-eerie-black-2 rounded-[20px]  md:py-10  md:pl-0 box-shadow box-border ">
         <LeftBar />
       </div>
-      <div className="w-full bg-eerie-black-1 rounded-[30px] border border-white">
+      <div className="w-full bg-eerie-black-1 rounded-[20px] box-shadow">
         Right
       </div>
     </div>
