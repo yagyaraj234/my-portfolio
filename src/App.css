@@ -1,5 +1,4 @@
 :root {
-  
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
@@ -96,10 +95,65 @@
 
 /* Box Shadow  */
 
+
 .box-shadow {
   box-shadow: var(--shadow-1);
   border: 1px solid hsla(0, 0%, 84%, 0.2);
 }
+
+ /* Scroll  */
+@media (min-width: 1250px) {
+
+  body::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--smoky-black);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    border: 5px solid var(--smoky-black);
+    background: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+      inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 0%, 100%, 0.15);
+  }
+
+  body::-webkit-scrollbar-button {
+    height: 0px;
+  }
+
+  /* right bar scroll  */
+  .navscr::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .navscr::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  .navscr::-webkit-scrollbar-thumb {
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+    background: var(--smoky-black);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+      inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+  }
+
+  .navscr::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 0%, 100%, 0.15);
+  }
+
+  .navscr::-webkit-scrollbar-button {
+    height: 10px;
+  }
+}
+
 
 /* Social item links  */
 

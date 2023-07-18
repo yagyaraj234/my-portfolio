@@ -75,10 +75,10 @@ const LeftBar = () => {
             <img className="p-1" src={mail} alt="mail-icon" />
           </div>
           <div>
-            <p className="text-light-gray-70 text-[12px] ">EMAIL</p>
+            <p className="text-light-gray-70 font-semibold  text-[12px] ">EMAIL</p>
 
             <a
-              className="text-white-1 font-semibold text-[14px]"
+              className="text-light-gray font-semibold text-[15px]"
               href="mailto:workyagyaraj@gmail.com"
             >
               workyagyaraj@gmail.com
@@ -91,18 +91,18 @@ const LeftBar = () => {
             <img className="p-1" src={phone} alt="mail-icon" />
           </div>
           <div>
-            <p className="text-light-gray-70 text-[12px] ">PHONE</p>
-            <p className="text-light-gray text-[14px]">+91 7566965886</p>
+            <p className="text-light-gray-70 font-semibold text-[12px]  ">PHONE</p>
+            <p className="text-light-gray text-[15px]">+91 7566965886</p>
           </div>
         </div>
         {/* Calender Icon  */}
         <div className="flex md:py-4 py-1   gap-2 ">
           <div className="icon-box">
-            <img className="p-1" src={calender} alt="mail-icon" />
+            <img className="p-1 " src={calender} alt="mail-icon" />
           </div>
           <div>
-            <p className="text-light-gray-70 text-[12px] ">Birthday</p>
-            <p className="text-light-gray text-[14px]">23rd &nbsp; April </p>
+            <p className="text-light-gray-70 font-semibold uppercase text-[12px] ">Birthday</p>
+            <p className="text-light-gray font-semibold  text-[15px]">23rd &nbsp; April </p>
           </div>
         </div>
         {/* Location Icon  */}
@@ -111,8 +111,8 @@ const LeftBar = () => {
             <img className="p-1" src={location} alt="mail-icon" />
           </div>
           <div className="overflow-hidden">
-            <p className="text-light-gray-70 text-sm ">Location</p>
-            <p className="text-light-gray text-[14px]">
+            <p className="text-light-gray-70 font-semibold  uppercase text-sm ">Location</p>
+            <p className="text-light-gray font-semibold  text-[14px]">
               Satna, Madhya Pradesh INDIA
             </p>
           </div>

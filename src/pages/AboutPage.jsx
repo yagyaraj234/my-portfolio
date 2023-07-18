@@ -1,4 +1,26 @@
 import React from "react";
+import Card from "../components/Card";
+import icondesign from "../images/icon-design.svg";
+import webDevelop from "../images/icon-dev.svg";
+import Skills from "../components/Skills";
+
+const cardData = [
+  {
+    id: 1,
+    heading: "Data Structure & Algorithm",
+    description:
+      "A five-star coder on HackerRank. Have solved more than 300 Data Structure and Algorithm questions.",
+    link: "https://hackerrank.com/yagyaraj234",
+    img: icondesign,
+  },
+  {
+    id: 2,
+    heading: "MERN Stack Developer",
+    description: "Developing professional Web applications of high quality. ",
+    link: "https://github.com/yagyaraj234",
+    img: webDevelop,
+  },
+];
 
 const AboutPage = () => {
   const hello = "< Hello World/>";
@@ -15,15 +37,11 @@ const AboutPage = () => {
 
         <p className="py-2 text-[17px] ">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto,
-          omnis corrupti? Hic in recusandae libero dolorum ut autem doloribus
-          inventore cupiditate sapiente, consectetur, possimus reprehenderit
           maxime officia accusamus mollitia expedita. Lorem ipsum dolor sit
           amet, consectetur adipisicing elit. Ipsam fugiat aperiam quos animi
         </p>
         <p className="py-2 text-[17px] ">
           dignissimos eos temporibus quis quibusdam vel minus blanditiis quidem
-          saepe accusantium magni voluptatibus modi tempora, nam iste omnis
-          itaque. Obcaecati eos doloribus atque illum adipisci veniam!
           Necessitatibus dolor, repellat suscipit dolorum rerum, corrupti
           explicabo fuga officiis sapiente eligendi, nam sunt ipsum maiores
           atque. Praesentium cumque aliquam aut mollitia illum ratione, nulla
@@ -33,14 +51,21 @@ const AboutPage = () => {
         <p className="py-2 text-[17px] ">
           {" "}
           Quos facilis asperiores natus quidem ab repellendus minus beatae ea
-          explicabo adipisci. Vitae voluptas veritatis nostrum aut, esse amet
-          distinctio exercitationem voluptatum iure cum officia explicabo
-          expedita.
         </p>
       </div>
 
       <div>
         <p className="font-semibold text-white text-2xl">What I'm Doing</p>
+
+        <div className="grid md:grid-cols-2">
+          {cardData.map((data) => (
+            <Card key={data.id} data={data} />
+          ))}
+        </div>
+      </div>
+      <div>
+        <p className="font-semibold text-white text-2xl">Skills</p>
+        <Skills />
       </div>
     </div>
   );
