@@ -1,6 +1,4 @@
-:root {
-
-  --bg-gradient-onyx: linear-gradient(
+:root {--bg-gradient-onyx: linear-gradient(
     to bottom right,
     hsl(240, 1%, 25%) 3%,
     hsl(0, 0%, 19%) 97%
@@ -89,21 +87,19 @@
   --transition-2: 0.5s ease-in-out;
 }
 ::selection {
-  background-color: var(--vegas-gold); 
+  background-color: var(--vegas-gold);
   color: black;
 }
 
 /* Box Shadow  */
-
 
 .box-shadow {
   box-shadow: var(--shadow-1);
   border: 1px solid hsla(0, 0%, 84%, 0.2);
 }
 
- /* Scroll  */
+/* Scroll  */
 @media (min-width: 1250px) {
-
   body::-webkit-scrollbar {
     width: 20px;
   }
@@ -153,7 +149,6 @@
     height: 10px;
   }
 }
-
 
 /* Social item links  */
 
@@ -266,8 +261,7 @@
   color: hsl(45, 100%, 72%);
 }
 
-
-  /* // Form button  */
+/* // Form button  */
 .form-btn {
   position: relative;
   width: 30%;
@@ -303,8 +297,7 @@
 
 .form-btn:hover {
   background: var(--bg-gradient-yellow-1);
-  
 }
-.text-area{
+.text-area {
   resize: none;
 }
