@@ -25,7 +25,7 @@ const LeftBar = () => {
   const [mobileView,setMobileView] =useState(false);
   return (
     // <div className="flex flex-col">
-    <div className=" flex  flex-col justify-center  overflow-hidden relative">
+    <div className=" flex  flex-col justify-center  overflow-hidden ">
       {/* USer Info 1  */}
       <div className=" md:pt-5 flex md:flex-col flex-row justify-center items-center overflow-hidden pl-5 md:pl-0 ">
         <div className="pt-5 md:pt-8 md:pr-2 overflow-hidden rounded-[20px] md:w-[150px] md:h-[150px] w-[120px] h-[90px]">
