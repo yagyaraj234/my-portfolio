@@ -62,7 +62,7 @@ const Skills = () => {
             <img
               src={item.img}
               alt={item.alt}
-              className="hover:grayscale cursor-pointer"
+              className="hover:grayscale cursor-pointer ml-[50px]"
             />
           </div>
         ))}

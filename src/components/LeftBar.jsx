@@ -4,22 +4,7 @@ import phone from "../images/icon-app.svg";
 import calender from "../images/calendar-outline.svg";
 import location from "../images/location-outline.svg";
 import mail from "../images/mail-outline.svg";
-// import instagram from "../images/icons/logo-linkedin.svg";
-const leftBar = [
-  {
-    icon: "mail",
-    name: "email",
-    namedata: "workygayaraj@gmail.com",
-    "ion-icon": "email-outline",
-  },
-  { icon: "phone", name: "phone", namedata: "+91 7566965886" },
-  { icon: "calender", name: "Birthday", namedata: "23rd April" },
-  {
-    icon: "location",
-    name: "location",
-    namedata: "Satna, Madhya Pradesh, INDIA",
-  },
-];
+
 const LeftBar = () => {
 
   const [mobileView,setMobileView] =useState(false);
