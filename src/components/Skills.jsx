@@ -1,5 +1,8 @@
 import React from "react";
-import Carousel from "react-grid-carousel";
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 import {
   html,
   css,
@@ -27,18 +30,44 @@ const CarouselItem = [
 ];
 
 const Skills = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
-    <Carousel cols={4} rows={1} mobileBreakpoint={2} gap={10}>
-      {CarouselItem.map((item) => (
-        <Carousel.Item key={item.id}>
-          <img
-            src={item.img}
-            alt={item.alt}
-            className="hover:grayscale cursor-pointer"
-          />
-        </Carousel.Item>
-      ))}
-    </Carousel>
+    <div className="">
+      <Carousel
+        responsive={responsive}
+        infinite={true}
+        containerClass="carousel-container"
+        itemClass="carousel-item"
+      >
+        {CarouselItem.map((item) => (
+          <div key={item.id} className="w-6/12 mx-0 px-0">
+            <img
+              src={item.img}
+              alt={item.alt}
+              className="hover:grayscale cursor-pointer"
+            />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
