@@ -1,20 +1,6 @@
 import React from "react";
 
 const ResumePage = () => {
-
-  const onButtonClick =()=>{
-    fetch('../YagyarajLodhiresume.pdf').then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = 'YagyarajLodhiResume.pdf';
-          alink.click();
-      })
-  })
-  }
   return (
     <div>
       <div>
@@ -108,7 +94,6 @@ const ResumePage = () => {
               <p className="text-xl my-1 ">Data Structure Algorithm</p>
               <p className="b-2 bg-light-gray-70 rounded h-2 w-full"></p>
               <p className="b-2 absolute bottom-0 bg-orange-yellow-crayola rounded h-2 w-9/12"></p>
-            
             </div>
             <div className="my-4 relative">
               <p className="text-xl ">MERN Stack Development</p>
@@ -121,7 +106,16 @@ const ResumePage = () => {
               <p className="b-2 absolute bottom-0 bg-orange-yellow-crayola rounded h-2 w-11/12"></p>
             </div>
             <div className="text-lg float-right download-btn hover:text-vegas-gold transition-colors duration-150">
-              <button className=" font-semibold"><a href="../YagyarajLodhiresume.pdf" download='YagyarajLodhiresume.pdf' target="_blank">Download Resume</a></button>
+              <button className=" font-semibold">
+                <a
+                  href="https://drive.google.com/file/d/1LhjmfOXq2NGW9AhT8PjF5DLaVC4RBlC5/view?usp=sharing"
+                  download="YagyarajLodhiresume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Download Resume
+                </a>
+              </button>
             </div>
           </div>
         </div>
