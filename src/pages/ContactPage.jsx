@@ -38,13 +38,12 @@ const ContactPage = () => {
         "5oPDlSSd6cA1i45VI" // Public Key - https://dashboard.emailjs.com/admin/account
       )
         .then((response) => {
-          console.log("SUCCESS!", response.status, response.text);
           formSuccess();
           setLoading(false);
         })
         .catch((err) => {
-          console.log("FAILED...", err);
           setLoading(false);
+          toast("Failed, Try Again .");
         })
     );
   };
@@ -69,7 +68,7 @@ const ContactPage = () => {
     }
     if (!values.message) {
       errors.message = "Message  is required";
-    } else if (!values.fullname.length < 25) {
+    } else if (values.message.length < 25) {
       errors.message = "Minimum 25 character required ";
     }
 
