@@ -254,6 +254,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 480px) {
+  .hidd {
+    display: none;
+  }
+}
 
 .active {
   color: hsl(45, 100%, 72%);
