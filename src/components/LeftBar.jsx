@@ -22,12 +22,12 @@ const LeftBar = () => {
             <p className="md:text-2xl text-md md:text-center text-left pb-1  text-white-1 w-full md:pl-0 pl-2 ">
               Yagyaraj Lodhi
             </p>
-            <p className="text-white-2  py-1 font-light bg-onyx rounded-lg  my-2 md:my-4 md:w-3/6 w-[115px] md:mx-auto md:text-sm text-xs md:pl ml-2 ">
+            <p className="text-white-2  py-1 font-light bg-onyx rounded-md  my-2 md:my-4 md:w-3/6 w-[115px] md:mx-auto md:text-sm text-xs md:pl ml-2  text-center">
               {" "}
               &nbsp; Software Engineer
             </p>
-            <p className="text-white-2  py-1 font-light bg-onyx rounded-lg  md:w-4/6  w-[142px] md:text-sm text-xs mx-auto ">
-              &nbsp; MERN Stack Developer
+            <p className="text-white-2  py-1 font-light bg-onyx rounded-md  md:w-3/6 w-[115px] md:text-sm text-center text-xs md:mx-auto ml-2 ">
+              &nbsp; MERN  Developer
             </p>
           </div>
         </div>

@@ -129,7 +129,7 @@ const ContactPage = () => {
           ></textarea>
           <p className=" px-4 text-red-500 text-xs">{formErrors.message}</p>
 
-          <div className="flex my-2 justify-end">
+          <div className="flex my-2 justify-end ">
             <button
               className="form-btn "
               type="submit"

@@ -247,16 +247,21 @@
     box-shadow: var(--shadow-1);
     z-index: 1;
   }
+  
 }
 
 @media screen and (min-width: 480px) {
   .hid {
     display: none;
   }
+  
 }
 @media screen and (max-width: 480px) {
   .hidd {
     display: none;
+  }
+  .form-btn{
+    width:50%;
   }
 }
 
@@ -270,7 +275,7 @@
 /* // Form button  */
 .form-btn {
   position: relative;
-  width: 30%;
+  
   right: 0;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);

@@ -2,9 +2,9 @@ import React from "react";
 
 const Card = ({ data }) => {
   return (
-    <div key={data.id} className=" text-white-1 p-5 ">
+    <div key={data.id} className=" text-white-1 py-5 ">
       <div className="flex gap-5">
-        <div className=" pt-2">
+        <div className="pt-2">
           <img src={data.img} alt="icon-img" />
         </div>
         <div>
