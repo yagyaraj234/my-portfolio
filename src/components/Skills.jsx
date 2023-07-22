@@ -50,7 +50,7 @@ const Skills = () => {
     },
   };
   return (
-    <div className="">
+    <div className="md:pb-5 pb-5">
       <Carousel
         responsive={responsive}
         infinite={true}
@@ -62,7 +62,7 @@ const Skills = () => {
             <img
               src={item.img}
               alt={item.alt}
-              className="hover:grayscale cursor-pointer ml-[50px]"
+              className="hover:grayscale cursor-pointer md:ml-[50px] ml-[80px]"
             />
           </div>
         ))}
