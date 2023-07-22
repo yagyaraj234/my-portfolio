@@ -38,7 +38,7 @@ const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -56,13 +56,14 @@ const Skills = () => {
         infinite={true}
         containerClass="carousel-container"
         itemClass="carousel-item"
+        className="px-10"
       >
         {CarouselItem.map((item) => (
           <div key={item.id} className="w-6/12 mx-0 px-0">
             <img
               src={item.img}
               alt={item.alt}
-              className="hover:grayscale cursor-pointer md:ml-[50px] ml-[80px]"
+              className="hover:grayscale cursor-pointer "
             />
           </div>
         ))}
