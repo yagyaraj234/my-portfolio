@@ -35,22 +35,26 @@ const AboutPage = () => {
       <div className="text-light-gray py-5 text-justify">
         <p className="text-xl font-bold">{hello}</p>
 
-        <p className="py-2 text-[17px] ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto,
-          maxime officia accusamus mollitia expedita. Lorem ipsum dolor sit
-          amet, consectetur adipisicing elit. Ipsam fugiat aperiam quos animi
+        <p className="py-2 text-[16px] ">
+          A software engineer and MERN Stack Developer from Satna, Madhya
+          Pradesh, India, I specialize in web development and design stuff. My
+          passion is turning complex problems into simple, beautiful, and
+          intuitive ones.
         </p>
-        <p className="py-2 text-[17px] ">
-          dignissimos eos temporibus quis quibusdam vel minus blanditiis quidem
-          Necessitatibus dolor, repellat suscipit dolorum rerum, corrupti
-          explicabo fuga officiis sapiente eligendi, nam sunt ipsum maiores
-          atque. Praesentium cumque aliquam aut mollitia illum ratione, nulla
-          pariatur doloribus molestias? Repellendus et vero saepe amet sequi
-          asperiores impedit dicta quo, earum illo illum culpa voluptatum,
+        <p className="py-2 text-[16px]">
+          My job is to build your website so that it is functional and
+          user-friendly but at the same time attractive. Also, I will add
+          personal touches to your product and ensure that it is easy to use and
+          eye-catching. Creating web design for a variety of good projects has
+          been a part of my goal. I am focused on bringing across your message
+          and identity creatively.
         </p>
-        <p className="py-2 text-[17px] ">
-          {" "}
-          Quos facilis asperiores natus quidem ab repellendus minus beatae ea
+        <p className="py-2 text-[16px] ">
+          Also, I am looking for an entry-level position as a Software
+          Engineer/Software Engineer Intern in a dynamic firm that values my
+          technical skills and gives me opportunities to update my knowledge. In
+          addition to contributing to the company's growth, I am looking for a
+          company that will enable me to grow personally at the same time.
         </p>
       </div>
 
