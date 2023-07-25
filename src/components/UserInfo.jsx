@@ -9,7 +9,7 @@ const UserInfo = ({ hidd }) => {
       {" "}
       <p className="border-b border-light-gray-70  w-10/12  mx-auto"></p>
       {/* User Detail Icon  Start    */}
-      <div className="md:py-10 py-3     flex-col flex  px-5 ">
+      <div className="md:py-8 py-3   flex-col flex  px-5 ">
         {/* Mail Icon  */}
         <div className="flex  md:py-4 gap-2 ">
           <div className="icon-box ">
@@ -44,8 +44,9 @@ const UserInfo = ({ hidd }) => {
         <div className="flex md:py-4 py-1   gap-2 ">
           <div className="icon-box">
             {/* <img className="p-1 " src={calender} alt="mail-icon" /> */}
-            <div className="icon-col">
-              <ion-icon name="calendar-outline"></ion-icon>
+            <div className="text-xl  md:text-2xl">
+
+            <ion-icon name="calendar-outline"></ion-icon>
             </div>
           </div>
           <div>
@@ -53,7 +54,7 @@ const UserInfo = ({ hidd }) => {
               Birthday
             </p>
             <p className="text-light-gray font-semibold  text-[15px]">
-              23rd April{" "}
+              23rd  April{" "}
             </p>
           </div>
         </div>
