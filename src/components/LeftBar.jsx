@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import user from "../images/user-image.webp";
-import phone from "../images/icon-app.svg";
-import calender from "../images/calendar-outline.svg";
-import location from "../images/location-outline.svg";
-import mail from "../images/mail-outline.svg";
 import UserInfo from "./UserInfo";
 
 const LeftBar = () => {
@@ -22,12 +18,11 @@ const LeftBar = () => {
             <p className="md:text-2xl text-md md:text-center text-left pb-1  text-white-1 w-full md:pl-0 pl-2 ">
               Yagyaraj Lodhi
             </p>
-            <p className="text-white-2  py-1 font-light bg-onyx rounded-md  my-2 md:my-4 md:w-3/6 w-[115px] md:mx-auto md:text-sm text-xs md:pl ml-2  text-center">
-              {" "}
-              &nbsp; Software Engineer
+            <p className="text-white-2  py-1 font-light bg-onyx rounded-md  my-2 md:my-3 md:w-3/6 w-[115px] md:mx-auto  text-xs md:pl ml-2  text-center">
+              Software Engineer
             </p>
-            <p className="text-white-2  py-1 font-light bg-onyx rounded-md  md:w-3/6 w-[115px] md:text-sm text-center text-xs md:mx-auto ml-2 ">
-              &nbsp; MERN  Developer
+            <p className="text-white-2  py-1 font-light bg-onyx rounded-md  md:w-3/6 w-[115px]  text-center text-xs md:mx-auto ml-2 ">
+              MERN Developer
             </p>
           </div>
         </div>
