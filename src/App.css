@@ -385,3 +385,134 @@
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
+
+.line {
+  height: 1px;
+  width: 22vh;
+  background-color: var(--vegas-gold);
+  /* z-index: 10; */
+  transform: rotate(90deg);
+  position: absolute;
+  left: -18px;
+  top: 200px;
+}
+.dot1, .dot2 {
+  border-radius: 50%;
+  background-color: var(--vegas-gold);
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 160px;
+  left: 45px;
+  padding: 2px;
+  border: 3px solid var(--vegas-gold);
+}
+.dot2{
+  top: 260px;
+}
+
+@media (max-width:400px) {
+
+  .line {
+    height: 1px;
+    width: 30vh;
+    background-color: var(--vegas-gold);
+    
+    transform: rotate(90deg);
+    position: absolute;
+    left: -68px;
+    top: 240px;
+  }
+  .dot1, .dot2 {
+    border-radius: 50%;
+    background-color: var(--vegas-gold);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 160px;
+    left: 27px;
+    padding: 2px;
+    border: 3px solid var(--vegas-gold);
+  }
+  .dot2{
+    top: 335px;
+  }
+  
+}
+
+.line-ex {
+  height: 1px;
+  width: 22vh;
+  background-color: var(--vegas-gold);
+  transform: rotate(90deg);
+  position: absolute;
+  left: -18px;
+  top: 470px;
+}
+.dot1-ex, .dot2-ex {
+  border-radius: 50%;
+  background-color: var(--vegas-gold);
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 430px;
+  left: 45px;
+  padding: 2px;
+  border: 3px solid var(--vegas-gold);
+}
+.dot2-ex{
+  top: 530px;
+}
+
+@media (max-width:400px) {
+
+  .line {
+    height: 1px;
+    width: 30vh;
+    background-color: var(--vegas-gold);
+    transform: rotate(90deg);
+    position: absolute;
+    left: -68px;
+    top: 240px;
+  }
+  .dot1, .dot2 {
+    border-radius: 50%;
+    background-color: var(--vegas-gold);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 160px;
+    left: 27px;
+    padding: 2px;
+    border: 3px solid var(--vegas-gold);
+  }
+  .dot2{
+    top: 335px;
+  }
+
+  .line-ex {
+    height: 1px;
+    width: 22vh;
+    background-color: var(--vegas-gold);
+    transform: rotate(90deg);
+    position: absolute;
+    left: -42px;
+    /* top: 240px; */
+    top: 590px;
+  }
+  .dot1-ex, .dot2-ex {
+    border-radius: 50%;
+    background-color: var(--vegas-gold);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 657px;
+    left: 26.5px;
+    padding: 2px;
+    border: 3px solid var(--vegas-gold);
+  }
+  .dot2-ex{
+    top: 535px;
+  }
+  
+}
