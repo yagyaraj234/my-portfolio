@@ -247,21 +247,19 @@
     box-shadow: var(--shadow-1);
     z-index: 1;
   }
-  
 }
 
 @media screen and (min-width: 480px) {
   .hid {
     display: none;
   }
-  
 }
 @media screen and (max-width: 480px) {
   .hidd {
     display: none;
   }
-  .form-btn{
-    width:50%;
+  .form-btn {
+    width: 50%;
   }
 }
 
@@ -275,7 +273,7 @@
 /* // Form button  */
 .form-btn {
   position: relative;
-  
+
   right: 0;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
@@ -313,6 +311,11 @@
   resize: none;
 }
 
+.icon-col {
+  color: var(--vegas-gold);
+  font-size: 28px;
+  padding-top: 5px;
+}
 
 /* Resume  */
 .icon-box-rs::before {
@@ -326,7 +329,6 @@
 
 .icon-box-res ion-icon {
   --ionicon-stroke-width: 35px;
-  
 }
 .icon-box-rs {
   position: relative;
@@ -353,7 +355,7 @@
   z-index: -1;
 }
 
-.skill-box{
+.skill-box {
   position: relative;
   background: var(--border-gradient-onyx);
   width: 100%;
@@ -373,7 +375,7 @@
   border-radius: inherit;
   z-index: -1;
 }
-.download-btn{
+.download-btn {
   position: relative;
   background: var(--border-gradient-onyx);
   width: 180px;
