@@ -1,6 +1,5 @@
 import React from "react";
 import phone from "../images/icon-app.svg";
-import calender from "../images/calendar-outline.svg";
 import location from "../images/location-outline.svg";
 import mail from "../images/mail-outline.svg";
 
@@ -44,14 +43,17 @@ const UserInfo = ({ hidd }) => {
         {/* Calender Icon  */}
         <div className="flex md:py-4 py-1   gap-2 ">
           <div className="icon-box">
-            <img className="p-1 " src={calender} alt="mail-icon" />
+            {/* <img className="p-1 " src={calender} alt="mail-icon" /> */}
+            <div className="icon-col">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
           </div>
           <div>
             <p className="text-light-gray-70 font-semibold uppercase text-[12px] ">
               Birthday
             </p>
             <p className="text-light-gray font-semibold  text-[15px]">
-              23rd &nbsp; April{" "}
+              23rd April{" "}
             </p>
           </div>
         </div>
