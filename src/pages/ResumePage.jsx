@@ -9,10 +9,13 @@ const ResumePage = () => {
       </div>
 
       {/* Education Section  */}
-      <div className="my-5 flex flex-row">
-        <div className="w-8 mr-5 icon-box-rs">
+      <div className="my-5 flex flex-row z-50">
+        <div className="w-8 mr-5 icon-box-rs ">
           <ion-icon name="book-outline" size="large"></ion-icon>
         </div>
+        <div className="line"></div>
+        <div className="dot1"></div>
+        <div className="dot2"></div>
 
         <div>
           <div className="flex flex-row gap-5">
@@ -84,6 +87,9 @@ const ResumePage = () => {
           </div>
         </div>
       </div>
+      <div className="line-ex"></div>
+      <div className="dot1-ex"></div>
+      <div className="dot2-ex"></div>
 
       {/* Skill Section  */}
       <div>
