@@ -386,133 +386,105 @@
   z-index: 1;
 }
 
-.line {
+/* .line {
   height: 1px;
-  width: 22vh;
+  width: 18%;
   background-color: var(--vegas-gold);
-  /* z-index: 10; */
   transform: rotate(90deg);
   position: absolute;
-  left: -18px;
-  top: 200px;
+  left: -2.3%;
+  top: 19%;
 }
-.dot1, .dot2 {
+.dot1,
+.dot2 {
   border-radius: 50%;
   background-color: var(--vegas-gold);
   height: 10px;
   width: 10px;
   position: absolute;
-  top: 160px;
-  left: 45px;
+  top: 15.5%;
+  left: 6%;
   padding: 2px;
   border: 3px solid var(--vegas-gold);
 }
-.dot2{
+.dot2 {
   top: 260px;
-}
-
-@media (max-width:400px) {
-
-  .line {
-    height: 1px;
-    width: 30vh;
-    background-color: var(--vegas-gold);
-    
-    transform: rotate(90deg);
-    position: absolute;
-    left: -68px;
-    top: 240px;
-  }
-  .dot1, .dot2 {
-    border-radius: 50%;
-    background-color: var(--vegas-gold);
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    top: 160px;
-    left: 27px;
-    padding: 2px;
-    border: 3px solid var(--vegas-gold);
-  }
-  .dot2{
-    top: 335px;
-  }
-  
 }
 
 .line-ex {
   height: 1px;
-  width: 22vh;
+  width: 18%;
   background-color: var(--vegas-gold);
   transform: rotate(90deg);
   position: absolute;
-  left: -18px;
-  top: 470px;
+  left: -2.3%;
+  top: 45.5%;
 }
-.dot1-ex, .dot2-ex {
+.dot1-ex,
+.dot2-ex {
   border-radius: 50%;
   background-color: var(--vegas-gold);
   height: 10px;
   width: 10px;
   position: absolute;
-  top: 430px;
-  left: 45px;
+  top: 42%;
+  left: 6%;
   padding: 2px;
   border: 3px solid var(--vegas-gold);
 }
-.dot2-ex{
-  top: 530px;
+.dot2-ex {
+  top: 51.5%;
 }
 
-@media (max-width:400px) {
-
-  .line {
+@media (max-width: 400px) {
+   .line {
     height: 1px;
-    width: 30vh;
+    width: 56%;
     background-color: var(--vegas-gold);
     transform: rotate(90deg);
     position: absolute;
-    left: -68px;
-    top: 240px;
+    left: -19.5%;
+    top: 19%;
   }
-  .dot1, .dot2 {
+  
+  .dot1,
+  .dot2 {
     border-radius: 50%;
     background-color: var(--vegas-gold);
     height: 10px;
     width: 10px;
     position: absolute;
-    top: 160px;
-    left: 27px;
+    top: 12.5%;
+    left: 7%;
     padding: 2px;
     border: 3px solid var(--vegas-gold);
   }
-  .dot2{
+  .dot2 {
     top: 335px;
-  }
+  } 
 
   .line-ex {
     height: 1px;
-    width: 22vh;
+    width: 41%;
     background-color: var(--vegas-gold);
     transform: rotate(90deg);
     position: absolute;
     left: -42px;
-    /* top: 240px; */
-    top: 590px;
+    top: 47%;
   }
-  .dot1-ex, .dot2-ex {
+  .dot1-ex,
+  .dot2-ex {
     border-radius: 50%;
     background-color: var(--vegas-gold);
     height: 10px;
     width: 10px;
     position: absolute;
-    top: 657px;
+    top: 52.5%;
     left: 26.5px;
     padding: 2px;
     border: 3px solid var(--vegas-gold);
   }
-  .dot2-ex{
-    top: 535px;
+  .dot2-ex {
+    top: 42.5%;
   }
-  
-}
+} */
