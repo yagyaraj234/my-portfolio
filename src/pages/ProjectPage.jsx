@@ -19,9 +19,9 @@ const projectData = [
   {
     id: 3,
     name: "Git stats Checker",
-    git: "https://github.com/yagyaraj234/git-stats-checker",
+    git: "https://github.com/yagyaraj234/github-stats-checker",
     img: project3,
-    live: "https://git-stats-checker.vercel.app",
+    live: "https://github-stats-checker.vercel.app/",
   },
 ];
 
