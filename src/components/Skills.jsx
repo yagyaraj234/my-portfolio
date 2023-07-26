@@ -59,7 +59,7 @@ const Skills = () => {
         className="px-10"
       >
         {CarouselItem.map((item) => (
-          <div key={item.id} className="w-6/12 mx-0 px-0">
+          <div key={item.id} className="w-6/12 mx-0 md:ml-0 ml-10 px-0">
             <img
               src={item.img}
               alt={item.alt}
