@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../YagyarajLodhiResume.pdf";
 
 const ResumePage = () => {
   return (
@@ -111,18 +112,11 @@ const ResumePage = () => {
               <p className="b-2 bg-light-gray-70 rounded h-2 w-full"></p>
               <p className="b-2 absolute bottom-0 bg-orange-yellow-crayola rounded h-2 w-11/12"></p>
             </div>
-            <div className="text-lg float-right download-btn hover:text-vegas-gold transition-colors duration-150">
-              <button className=" font-semibold">
-                <a
-                  href="https://drive.google.com/file/d/1LhjmfOXq2NGW9AhT8PjF5DLaVC4RBlC5/view?usp=sharing"
-                  download="YagyarajLodhiresume.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Download Resume
-                </a>
-              </button>
-            </div>
+            <a href={Resume} download="YagyarajLodhiResume">
+              <div className="text-lg float-right download-btn hover:text-vegas-gold transition-colors duration-150">
+                <button className=" font-semibold">Download Resume</button>
+              </div>
+            </a>
           </div>
         </div>
       </div>
