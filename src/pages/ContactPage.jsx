@@ -29,8 +29,8 @@ const ContactPage = () => {
     setLoading(true);
     if (
       formValues.email.length > 5 &&
-      formValues.fullname.length > 8 &&
-      formValues.message.length > 25 &&
+      formValues.fullname.length >= 5 &&
+      formValues.message.length > 10 &&
       send(
         "service_7mchr7e", // Service ID
         "template_yp3goo4", // Template ID
