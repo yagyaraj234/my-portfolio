@@ -51,10 +51,7 @@ const ContactPage = () => {
     toast("Thanks for Contacting, I will get back to you shortly.");
 
     // Resetting Form
-    setFormValues({
-      fullname: "",
-    email: "",
-    message: "",}
+    setFormValues(initialValues);
     document.getElementById("queryForm").reset();
   };
 
