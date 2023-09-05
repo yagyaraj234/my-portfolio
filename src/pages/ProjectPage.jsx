@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { project1, project2, project3 } from "../images/project";
+import {
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+} from "../images/project";
 
 const projectData = [
   {
@@ -22,6 +28,20 @@ const projectData = [
     git: "https://github.com/yagyaraj234/github-stats-checker",
     img: project3,
     live: "https://github-stats-checker.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "E-commerce Homepage",
+    git: "https://github.com/yagyaraj234/nexus",
+    img: project4,
+    live: "https://nexus-sandy-xi.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Stack overflow Clone",
+    git: "http://github.com/yagyaraj234/stackoverflow-clone",
+    img: project5,
+    live: "https://stackover-flow.vercel.app/",
   },
 ];
 
