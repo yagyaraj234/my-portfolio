@@ -8,9 +8,9 @@ const Card = ({ data }) => {
           <img src={data.img} alt="icon-img" />
         </div>
         <div>
-          <p className="text-xl font-semibold">{data.heading}</p>
-          <p className="text-white-2">{data.description}</p>
-          <a href={data.link} className="font-bold">
+          <p className="text-lg font-semibold">{data.heading}</p>
+          <p className=" text-[15px] text-gray-300">{data.description}</p>
+          <a href={data.link} className="font-bold text-gray-200">
             Check here
           </a>
         </div>

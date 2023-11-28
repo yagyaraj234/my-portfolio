@@ -5,6 +5,7 @@ import {
   project3,
   project4,
   project5,
+  project6,
 } from "../images/project";
 
 const projectData = [
@@ -42,6 +43,13 @@ const projectData = [
     git: "http://github.com/yagyaraj234/stackoverflow-clone",
     img: project5,
     live: "https://stackover-flow.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "Real-time Chat app",
+    git: "http://github.com/yagyaraj234/chat-app",
+    img: project6,
+    live: "https://chat-app-frontend-flax.vercel.app/",
   },
 ];
 
@@ -84,17 +92,17 @@ const ProjectPage = () => {
               />
               {hoverStates[index] ? (
                 <div className="px-5 absolute top-12  md:top-10 z-10 text-center">
-                  <div className="flex flex-row justify-between lg:w-[130px] xl:w-[200px] w-[200px]">
+                  <div className="flex flex-row gap-24 ml-4 sm:ml-0 mt-3 sm:mt-1.5 md:gap-20">
                     <a
                       href={proj.git}
-                      className="bg-white text-black rounded-lg px-3 py-1 hover:bg-onyx transition-colors duration-75 hover:text-white border border-black"
+                      className="bg-white text-black rounded-lg p-2 px-3 hover:bg-onyx transition-colors duration-75 hover:text-white border border-black"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <ion-icon name="logo-github"></ion-icon>
                     </a>
                     <a
-                      className="bg-white text-black rounded-lg px-3 py-1 hover:bg-onyx transition-colors duration-75 hover:text-white border border-black"
+                      className="bg-white text-black rounded-lg p-2 px-3  hover:bg-onyx transition-colors duration-75 hover:text-white border border-black"
                       target="_blank"
                       rel="noreferrer"
                       href={proj.live}

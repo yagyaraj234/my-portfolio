@@ -20,25 +20,24 @@ const ResumePage = () => {
 
         <div>
           <div className="flex flex-row gap-5">
-            <h1 className="text-2xl text-white font-bold">Education</h1>
+            <h1 className="text-xl text-white font-bold">Education</h1>
           </div>
           <div>
             <div>
-              <p className="my-3 text-xl text-white font-semibold">
+              <p className="my-2 mt-4 text-md text-gray-200 font-semibold">
                 Gyan Ganga College of Technology
               </p>
-              <p className=" text-vegas-gold">2019 - 2023</p>
-              <p className="text-md text-light-gray ">
-                Bachelor of Technology. Currently pursuing Bachelors in Computer
-                Science.
+              <p className=" text-vegas-gold text-[15px]">2019 - 2023</p>
+              <p className="text-[15px] text-light-gray ">
+                Bachelor of Technology, Computer Science Engineering.
               </p>
             </div>
             <div>
-              <p className="my-3 text-xl text-white font-semibold">
+              <p className="my-2 mt-4 text-md text-gray-200 font-semibold">
                 Satya Niketan Higher Secondary School
               </p>
-              <p className=" text-vegas-gold">2016 - 2019</p>
-              <p className="text-md text-light-gray">
+              <p className=" text-vegas-gold text-[15px]">2016 - 2019</p>
+              <p className="text-[15px] text-light-gray">
                 Class X | Class XII (Science)
               </p>
             </div>
@@ -57,31 +56,58 @@ const ResumePage = () => {
           </div>
           <div>
             <div>
-              <p className="my-3 text-xl text-white font-semibold">
-                Freelancer Web Developer
+              <p className="my-2 mt-4 text-md text-gray-200 font-semibold">
+                Freelance Web Developer
               </p>
-              <p className=" text-vegas-gold">2021 - Present</p>
-              <p className="text-md text-light-gray ">
+              <p className=" text-vegas-gold text-[15px]">2021 - Present</p>
+              <p className="text-[15px] text-light-gray ">
                 I am doing freelancing for dev and design related work.
               </p>
             </div>
             <div>
               <div>
-                <p className="my-3 text-xl text-white font-semibold">
+                <p className="my-2 text-md text-gray-200 font-semibold">
+                  Skillrazr Full-Stack developer Intern
+                </p>
+                <p className=" text-vegas-gold text-[15px]">Oct 2023 - Present</p>
+
+                <ul className="text-[15px] text-light-gray list-disc ">
+                  <li className="my-1">
+                    Developed a Cricket Team Rank Prediction game for the World
+                    Cup 2023, focusing on accurate ranking predictions. Utilized
+                    Node.js and Firebase to create APIs for seamless data
+                    integration.
+                  </li>
+                  <li className="my-1">
+                    Enhanced the Skillrazr platform’s user interface, ensuring
+                    responsiveness and resolving styling issues for an improved
+                    user experience.
+                  </li>
+                  <li className="my-1">
+                    Designed an engaging SQL and Git playground, providing users
+                    with a dynamic environment to actively enhance their SQL and
+                    Git skills.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div>
+                <p className="my-2 mt-4 text-md text-white font-semibold">
                   Oasis Infobyte Web developer Intern
                 </p>
-                <p className=" text-vegas-gold">March-April 2022</p>
+                <p className=" text-vegas-gold text-[15px]">March 23 -April 2022</p>
 
-                <ul className="text-md text-light-gray ">
-                  <li>
-                    {" "}
-                    • Developed Full-Stack Website Using HTML,CSS,Javascript.{" "}
+                <ul className="text-[15px] text-light-gray list-disc ">
+                  <li className="my-1">
+                    Developed Full-Stack Website Using HTML,CSS,Javascript.
                   </li>
-                  <li>
-                    {" "}
-                    • Made UI designs for several projects of the company.
+                  <li className="my-1">
+                    Made UI designs for several projects of the company.
                   </li>
-                  <li> • Fixed bugs of the Frontend part of the projects</li>
+                  <li className="my-1">
+                    Fixed bugs of the Frontend part of the projects
+                  </li>
                 </ul>
               </div>
             </div>
@@ -113,8 +139,10 @@ const ResumePage = () => {
               <p className="b-2 absolute bottom-0 bg-orange-yellow-crayola rounded h-2 w-11/12"></p>
             </div>
             <a href={Resume} download="YagyarajLodhiResume">
-              <div className="text-lg float-right download-btn hover:text-vegas-gold transition-colors duration-150">
-                <button className=" font-semibold">Download Resume</button>
+              <div className="text-lg float-right download-btn hover:text-vegas-gold transition-colors duration-150 text-center">
+                <button className=" font-semibold text-[15px] text-center">
+                  Download Resume
+                </button>
               </div>
             </a>
           </div>

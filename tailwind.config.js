@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'jett': "hsl(0%,0%,22%)",
-        'onyx': "hsl(240, 1%, 17%)",
+        jett: "hsl(0%,0%,22%)",
+        onyx: "hsl(240, 1%, 17%)",
         "eerie-black-1": "hsl(240, 2%, 13%)",
         "eerie-black-2": " hsl(240, 2%, 12%)",
         "smoky-black": "hsl(0, 0%, 7%)",
@@ -17,6 +17,9 @@ module.exports = {
         "light-gray": "hsl(0, 0%, 84%)",
         "light-gray-70": "hsla(0, 0%, 84%, 0.7)",
         "bittersweet-shimmer": "hsl(0, 43%, 51%)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

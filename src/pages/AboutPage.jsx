@@ -35,13 +35,13 @@ const AboutPage = () => {
       <div className="text-light-gray py-5 text-justify">
         <p className="text-xl font-bold">{hello}</p>
 
-        <p className="py-2 text-[16px] ">
+        <p className="py-2 [15px] text-gray-300 ">
           A software engineer and MERN Stack Developer from Satna, Madhya
           Pradesh, India, I specialize in web development and design stuff. My
           passion is turning complex problems into simple, beautiful, and
           intuitive ones.
         </p>
-        <p className="py-2 text-[16px]">
+        <p className="py-2 [15px] text-gray-300">
           My job is to build your website so that it is functional and
           user-friendly but at the same time attractive. Also, I will add
           personal touches to your product and ensure that it is easy to use and
@@ -49,7 +49,7 @@ const AboutPage = () => {
           been a part of my goal. I am focused on bringing across your message
           and identity creatively.
         </p>
-        <p className="py-2 text-[16px] ">
+        <p className="py-2 text-[15px] text-gray-300 ">
           Also, I am looking for an entry-level position as a Software
           Engineer/Software Engineer Intern in a dynamic firm that values my
           technical skills and gives me opportunities to update my knowledge. In

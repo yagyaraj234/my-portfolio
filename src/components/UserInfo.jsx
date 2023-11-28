@@ -37,7 +37,7 @@ const UserInfo = ({ hidd }) => {
             <p className="text-light-gray-70 font-semibold text-[12px]  ">
               PHONE
             </p>
-            <p className="text-light-gray text-[15px]">+91 7566965886</p>
+            <p className="text-light-gray text-[15px] ">+91 7566965886</p>
           </div>
         </div>
         {/* Calender Icon  */}
@@ -45,8 +45,7 @@ const UserInfo = ({ hidd }) => {
           <div className="icon-box">
             {/* <img className="p-1 " src={calender} alt="mail-icon" /> */}
             <div className="text-xl  md:text-2xl">
-
-            <ion-icon name="calendar-outline"></ion-icon>
+              <ion-icon name="calendar-outline"></ion-icon>
             </div>
           </div>
           <div>
@@ -54,7 +53,7 @@ const UserInfo = ({ hidd }) => {
               Birthday
             </p>
             <p className="text-light-gray font-semibold  text-[15px]">
-              23rd  April{" "}
+              23rd April{" "}
             </p>
           </div>
         </div>
