@@ -92,24 +92,7 @@ const ResumePage = () => {
               </div>
             </div>
             <div>
-              <div>
-                <p className="my-2 mt-4 text-md text-white font-semibold">
-                  Oasis Infobyte Web developer Intern
-                </p>
-                <p className=" text-vegas-gold text-[15px]">March 23 -April 2022</p>
-
-                <ul className="text-[15px] text-light-gray list-disc ">
-                  <li className="my-1">
-                    Developed Full-Stack Website Using HTML,CSS,Javascript.
-                  </li>
-                  <li className="my-1">
-                    Made UI designs for several projects of the company.
-                  </li>
-                  <li className="my-1">
-                    Fixed bugs of the Frontend part of the projects
-                  </li>
-                </ul>
-              </div>
+            
             </div>
           </div>
         </div>
