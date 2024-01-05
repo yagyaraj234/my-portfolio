@@ -32,9 +32,9 @@ const ContactPage = () => {
       formValues.fullname.length >= 5 &&
       formValues.message.length > 10 &&
       send(
-        "service_7mchr7e", // Service ID
+        "service_qfubbyq", // Service ID
         "template_yp3goo4", // Template ID
-        formValues,
+        `name:${formValues.fullname} \n email:${formValues.email} \n message:${formValues.message}}`,
         "5oPDlSSd6cA1i45VI" // Public Key - https://dashboard.emailjs.com/admin/account
       )
         .then((response) => {
