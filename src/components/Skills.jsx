@@ -9,15 +9,16 @@ import {
   sql,
   git,
   cpp,
-  c,
   JS,
   reactimg,
   reduximg,
   mongoDB,
+  prisma,
+  nodejs,
+  docker,
 } from "../images/index";
 
 const CarouselItem = [
-  { id: 1, img: c, alt: "c-logo" },
   { id: 2, img: cpp, alt: "cpp-logo" },
   { id: 3, img: html, alt: "html-logo" },
   { id: 4, img: css, alt: "css-logo" },
@@ -27,6 +28,10 @@ const CarouselItem = [
   { id: 8, img: mongoDB, alt: "mongodb-logo" },
   { id: 9, img: sql, alt: "sql-logo" },
   { id: 10, img: git, alt: "git-logo" },
+  { id: 11, img: prisma, alt: "prisma-logo" },
+  { id: 12, img: nodejs, alt: "nodejs-logo" },
+  // { id: 14, img: tailwindcss, alt: "tailwindcss-logo" },
+  { id: 15, img: docker, alt: "docker-logo" },
 ];
 
 const Skills = () => {

@@ -6,9 +6,17 @@ import {
   project4,
   project5,
   project6,
+  collab,
 } from "../images/project";
 
 const projectData = [
+  {
+    id: 12,
+    name: "Collab",
+    git: "https://github.com/yagyaraj234/collab",
+    img: collab,
+    live: "https://collab-neon.vercel.app/",
+  },
   {
     id: 1,
     name: "ShoeUp",
@@ -30,13 +38,13 @@ const projectData = [
     img: project3,
     live: "https://github-stats-checker.vercel.app/",
   },
-  {
-    id: 4,
-    name: "E-commerce Homepage",
-    git: "https://github.com/yagyaraj234/nexus",
-    img: project4,
-    live: "https://nexus-sandy-xi.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   name: "E-commerce Homepage",
+  //   git: "https://github.com/yagyaraj234/nexus",
+  //   img: project4,
+  //   live: "https://nexus-sandy-xi.vercel.app/",
+  // },
   {
     id: 5,
     name: "Stack overflow Clone",

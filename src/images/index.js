@@ -9,6 +9,11 @@ import mongoDB from "./mongoDB.png";
 import reactimg from "./react.png";
 import reduximg from "./redux.png";
 import iconDev from "./icon-photo.svg";
+import prisma from "./prisma.png";
+import nodejs from "./node.png";
+import next from "./next.png";
+import tailwindcss from "./tailwind.png";
+import docker from "./docker.png";
 
 export {
   html,
@@ -22,4 +27,9 @@ export {
   mongoDB,
   reduximg,
   iconDev,
+  prisma,
+  nodejs,
+  next,
+  tailwindcss,
+  docker,
 };

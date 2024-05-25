@@ -1,5 +1,5 @@
 import React from "react";
-// import Resume from "../YagyarajlodhiResume.pdf";
+import Resume from "../YagyarajlodhiResume.pdf";
 
 const ResumePage = () => {
   return (
@@ -139,13 +139,13 @@ const ResumePage = () => {
               <p className="b-2 bg-light-gray-70 rounded h-2 w-full"></p>
               <p className="b-2 absolute bottom-0 bg-orange-yellow-crayola rounded h-2 w-11/12"></p>
             </div>
-            {/* <a href={Resume} download="YagyarajLodhiResume">
+            <a href={Resume} download="YagyarajLodhiResume">
               <div className="text-lg float-right download-btn hover:text-vegas-gold transition-colors duration-150 text-center">
                 <button className=" font-semibold text-[15px] text-center">
                   Download Resume
                 </button>
               </div>
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
