@@ -36,25 +36,40 @@ const AboutPage = () => {
         <p className="text-xl font-bold">{hello}</p>
 
         <p className="py-2 [15px] text-gray-300 ">
-          A software engineer and MERN Stack Developer from Satna, Madhya
-          Pradesh, India, I specialize in web development and design stuff. My
-          passion is turning complex problems into simple, beautiful, and
-          intuitive ones.
+          Welcome to my personal portfolio! I am a passionate software engineer
+          and MERN Stack Developer based in Satna, Madhya Pradesh, India. My
+          mission is to turn complex problems into simple, beautiful, and
+          intuitive solutions through creative web development and design.
         </p>
-        <p className="py-2 [15px] text-gray-300">
+        {/* <p className="py-2 [15px] text-gray-300">
           My job is to build your website so that it is functional and
           user-friendly but at the same time attractive. Also, I will add
           personal touches to your product and ensure that it is easy to use and
           eye-catching. Creating web design for a variety of good projects has
           been a part of my goal. I am focused on bringing across your message
           and identity creatively.
-        </p>
-        <p className="py-2 text-[15px] text-gray-300 ">
+        </p> */}
+        {/* <p className="py-2 text-[15px] text-gray-300 ">
           Also, I am looking for an entry-level position as a Software
           Engineer/Software Engineer Intern in a dynamic firm that values my
           technical skills and gives me opportunities to update my knowledge. In
           addition to contributing to the company's growth, I am looking for a
           company that will enable me to grow personally at the same time.
+        </p> */}
+        <p className="py-2 text-[15px] text-gray-300 ">
+          As a developer, I handle all aspects of web development, from design
+          to implementation. My expertise lies in creating functional websites
+          with a personal touch to ensure a unique user experience.
+        </p>
+        <p className="py-2 text-[15px] text-gray-300 ">
+          I specialize in MERN Stack development, offering services in web
+          design, e-commerce solutions, website optimization, and SEO strategies
+          to enhance online visibility.
+        </p>
+        <p className="py-2 text-[15px] text-gray-300 ">
+          I am committed to excellence in web development and design, aiming to
+          exceed client expectations and deliver impactful solutions. Let's
+          collaborate to bring your vision to life!
         </p>
       </div>
 
