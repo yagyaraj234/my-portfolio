@@ -63,13 +63,20 @@ const ResumePage = () => {
               <p className=" text-vegas-gold text-[15px]">Jan 2024 - Present</p>
               <ul className="text-[15px] text-light-gray list-disc ">
                 <li className="my-1 list-  ">
-                  Implemented a copilot and embedding feature, allowing users to
-                  easily create content (using a template or manual input) for
-                  their social platform and share it with their networks.
+                  Implemented a feature enabling users to create and globally
+                  apply a brand voice (writing style, tone, etc.) for consistent
+                  content creation across app.
+                </li>
+                <li className="my-1 list-  ">
+                  Developed a copilot and embedding feature (including embedded
+                  documents, URLs, and text), enabling effortless content
+                  creation for social platforms and facilitating seamless
+                  sharing across networks.
                 </li>
                 <li className="my-1">
-                  Collaborated with the Data Science team to develop workflows
-                  to automate personalized content for thousands of users.
+                  Collaborated with the LLM team to develop automated content
+                  creation workflows, personalizing content for thousands of
+                  customers based on user personas.
                 </li>
               </ul>
             </div>
